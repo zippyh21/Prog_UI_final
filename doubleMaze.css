@@ -1,0 +1,42 @@
+/* From page 261 ("Drawing"). */
+.background {
+    background: gray;
+    table-layout: fixed;
+    border-spacing: 0;
+  }
+  .background td {
+    padding: 0;
+  }
+  .wall {
+    background: black;
+  }
+  
+  /* From page 262 ("Drawing"). */
+  .actor {
+    position: absolute;
+  }
+  .Player1 {
+
+    background: blue;
+  }
+  .Player2 {
+    background: red;
+  }
+
+  .goal{
+    background: green;
+  }
+  
+  /* From page 263 ("Drawing"). */
+  .won .Player1 {
+    box-shadow: -4px -7px 8px white, 4px -7px 8px white;
+  }
+  .won .Player2 {
+    box-shadow: -4px -7px 8px white, 4px -7px 8px white;
+  }
+  .game {
+    overflow: hidden;
+    max-width: 600px;
+    max-height: 450px;
+    position: relative;
+  }
